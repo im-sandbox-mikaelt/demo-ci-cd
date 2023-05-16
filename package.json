@@ -1,0 +1,30 @@
+{
+  "name": "demo-ci-cd",
+  "version": "1.0.0",
+  "description": "Demo repository for using GitHub Actions in a CI/CD context.",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ps-actions-sandbox/demo-ci-cd.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "ci",
+    "cd"
+  ],
+  "author": "Steffen Bjerkenås",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ps-actions-sandbox/demo-ci-cd/issues"
+  },
+  "homepage": "https://github.com/ps-actions-sandbox/demo-ci-cd#readme",
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3",
+    "jest": "^27.2.5"
+  }
+}
