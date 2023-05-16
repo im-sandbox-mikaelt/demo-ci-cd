@@ -37,7 +37,7 @@ jobs:
       matrix:
         # our matrix for testing acros node versions and OSs
         node-version: [12, 14]
-        os: [windows-2019, ubuntu-18.04, ubuntu-20.04]
+        os: [windows-2019, ubuntu-20.04]
     
     steps:
       - name: Checkout
