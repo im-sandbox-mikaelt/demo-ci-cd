@@ -1,5 +1,5 @@
 function print() {
-  return 'Hello StoneX World!!'
+  return 'Hello World!!'
 }
 
 module.exports = {
