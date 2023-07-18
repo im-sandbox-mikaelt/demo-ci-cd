@@ -1,5 +1,5 @@
 function print() {
-  return 'Hello DOE!!'
+  return 'Hello GA DECAL!!'
 }
 
 module.exports = {
